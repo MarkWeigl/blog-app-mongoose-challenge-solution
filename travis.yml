@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key: 
+    secure: f4232192-c6a9-4cb5-9d0b-00d5c869770f
+  app: evening-dawn-82999
+  on: 
+    repo: MarkWeigl/blog-app-mongoose-challenge-solution
