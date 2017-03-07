@@ -4,7 +4,7 @@ const faker = require('faker');
 const mongoose = require('mongoose');
 
 // this makes the should syntax available throughout
-// this module
+// this module!
 const should = chai.should();
 
 const {DATABASE_URL} = require('../config');
