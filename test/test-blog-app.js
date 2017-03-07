@@ -17,7 +17,7 @@ chai.use(chaiHttp);
 // this function deletes the entire database.
 // we'll call it in an `afterEach` block below
 // to ensure  ata from one test does not stick
-// around for next one
+// around for next one!
 function tearDownDb() {
   return new Promise((resolve, reject) => {
     console.warn('Deleting database');
